@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+.Is2A{color: aquamarine;
+border: 2px solid yellow;
+margin-top: 50px;
+padding-top: 50px;
+}
+header{
+    background-color: rgb(241, 24, 231);
+}
+.contener{
+    max-width: 1000px;
+    margin:0% auto;
+    border: 2px solid rgb(77, 192, 24);
+}
+.class2{
+    display:flex;
+    justify-content: space-between;
+
+
+}
+p{
+    color:rgb(255, 0, 34);
+}
+.class3{color: rgb(124, 194, 11);
+font-size: 35px;
+font-weight: 900;
+letter-spacing: 0px;
+width: 25px;
+line-height: 25px;
+}
+.class4{
+    display:flex;
+    
+
+}
+.class4 li{
+    list-style: none;
+    margin-right: 50px;
+    transition: all 2s;
+
+
+}
+.class4 li:last-child{
+    margin-right: 0px;
+}
+.class4 li:hover{
+    color: rgb(196, 233, 30);
+}
+.class5{
+    display:flex;
+    justify-content: space-between;
+}
+.class6 {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px 50px;
+}
+.class7{
+    width: 56px;
+}
+/* media */
+
+@media screen and (max-width: 700px) {
+    .class4 li{
+        color: rgb(255, 38, 85);
+    }
+}
+@media screen and (max-width: 320px) {
+    .class4 li{
+        margin-right: 10px;
+    }
+}
